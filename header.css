@@ -27,12 +27,14 @@
 }
 ul {
   display: flex;
-  gap: 15px;
+  column-gap: 35px;
   list-style: none;
+  margin-right: 15px;
 }
 a {
   text-decoration: none;
   color: #394149;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
 }
+

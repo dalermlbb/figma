@@ -1,4 +1,4 @@
-h2 {
+/* h2 {
     font-family:
       Courier New,
       monospace;
@@ -37,4 +37,94 @@ h2 {
   .scale-down {
     object-fit: scale-down;
   }
-  
+   */
+
+.footer {
+  background-color: #063255;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 400px;
+}
+
+._footer {
+  padding: 15px;
+  padding-top: 60px;
+  display: flex;
+  column-gap: 100px;
+}
+._footer h1 {
+  color: white;
+  font-size: 25px;
+}
+.logotip {
+  margin-bottom: 30px;
+}
+._footer .brend {
+  font-size: 35px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.icon_footer{
+  gap: 15px;
+}
+
+.section_footer_two{
+  margin-left: 50px;
+}
+
+.section_footer_two h1{
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.section_footer_two p{
+  color: white;
+  margin-top: 17px;
+  font-size: 18px;
+}
+.section_footer_three p{
+  color: white;
+  margin-top: 17px;
+  font-size: 18px;
+}
+.section_footer_three h1{
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.section_footer_four h1{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.section_footer_four input{
+  height: 50px;
+  width: 300px;
+  border-radius: 36px;
+  padding: 15px;
+  font-size: 14px;
+}
+.section_footer_four button{
+  height: 50px;
+  width: 150px;
+  border-radius: 36px;
+  background-color: #F58A07;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.footer_copyright{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  color: white;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 12px;
+}
+.footer_copyright span{
+  display: flex;
+  column-gap: 30px;
+}
